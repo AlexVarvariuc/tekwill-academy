@@ -1,0 +1,29 @@
+.submit-button {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+#main-title {
+    background-color: #ffe600a9;
+    color: #c00909;
+    display:inline ;
+}
+p {
+    font-size: 16px;
+}
+a:hover {
+    background-color:#00FFFF;
+}
+nav a::before {
+    content:U+1F320
+}
+h2 {
+    background-color:rgba(135, 228, 30, 0.9);
+}
+a::before{
+    content:"\2605";
+}
+a::after {
+    content: '';
+    display: block;
+     border-bottom: 2px solid black;
+}
