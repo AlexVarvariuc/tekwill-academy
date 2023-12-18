@@ -1,0 +1,135 @@
+/* body{
+    background: rgba(175, 173, 173, 0.788);
+    
+} */
+
+a{
+ text-decoration: none;
+}
+
+.nav-main{
+    float: right;
+    color: #111010;
+}
+.info { 
+      color: #111010; 
+      padding: 14px 16px;
+      /* border-right: 1px solid #0a0a0a;  */
+}
+
+.div-main{
+    display: inline-block;
+}
+.main-header {
+    background-image: url('background-photo.png');
+    background-size: cover;
+    background-position: center top;
+   background-repeat: no-repeat;
+   /* background-color: #a3adac86; */
+   background-attachment: fixed;
+   color: #111010;
+   width: 1440px;
+   height: 880px;
+   /* background-color: rgba(0,0,0,.5); */
+}
+h3{
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+letter-spacing: 0.1px;
+}
+h1{
+font-family: Montserrat;
+font-size: 58px;
+font-style: normal;
+font-weight: 800;
+/* line-height: 80px; 1 */
+/* letter-spacing: 0.2px; */
+}
+h4{
+    font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+/* letter-spacing: 0.2px; */
+}
+.first-btn{
+    display: flex;
+padding: 10px 36px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+border-radius: 37px;
+background: var(--primary-color, #FFA62B);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.second-btn{
+    display: flex;
+padding: 10px 36px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+border-radius: 37px;
+border: 1px solid var(--light-background-color, #FFF);
+display: inline-block;
+}
+
+.registration{
+    display: flex;
+width: 328px;
+/* height: 200; */
+padding: 40px;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+border-radius: 10px;
+background: #ffffff63;
+float: right;
+}
+
+
+.text-appointment{
+color: var(--text-color, #252B42);
+/* text-align: center; */
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; 
+/* letter-spacing: 0.1px; */
+}
+.text-and-button{
+    display: flex;
+width: 600px;
+flex-direction: column;
+align-items: flex-start;
+gap: 35px;
+float: right;
+}
+
+.book-appointment{
+    display: flex;
+padding: 15px 40px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+border-radius: 5px;
+background: var(--primary-color, #FFA62B);
+}
+label{
+color: var(--text-color, #252B42);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; 
+letter-spacing: 0.2px;
+}
+/* form{
+    height: 91px;
+align-self: stretch;
+} */
