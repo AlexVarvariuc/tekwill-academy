@@ -1,0 +1,54 @@
+.submit-button {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+#main-title {
+    background-color: #ffe600a9;
+    color: #c00909;
+    display:inline ;
+}
+p {
+    font-size: 16px;
+}
+a:hover {
+    background-color:#2f00ff;
+}
+h2 {
+    background-color:rgba(135, 228, 30, 0.9);
+}
+nav::after {
+    content: '';
+    display: block;
+     border-bottom: 2px solid black;
+}
+nav,h1{
+    display: inline;
+}
+header{
+    background-color: #6dbdd973;
+}
+body{
+    background-color: #6467302e;
+}
+a {
+    text-decoration: none;
+}
+
+.google-icon, .instagram-icon, .facebook-icon {
+    width: 55px;
+    height: 55px;
+}
+nav button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+nav button:hover {
+    background-color:#2f00ff;
+}
+nav button {
+    border-right: 1px solid;
+}
+nav a{
+    color: black;
+}
